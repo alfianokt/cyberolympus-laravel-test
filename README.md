@@ -33,3 +33,4 @@ DB_DATABASE=laravel # ubah sesuai nama database
 DB_USERNAME=root    # ubah sesuai username database
 DB_PASSWORD=        # ubah sesuai password database
 ```
+... (Isnt completed)
