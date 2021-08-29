@@ -26,3 +26,4 @@ Route::get('product', 'ProductController@index')->name('product');
 Route::get('order', 'OrderController@index')->name('order');
 Route::get('laporan', 'LaporanController@index')->name('laporan');
 Route::get('laporan/2', 'LaporanController@laporan2')->name('laporan.2');
+Route::get('laporan/3', 'LaporanController@laporan3')->name('laporan.3');
