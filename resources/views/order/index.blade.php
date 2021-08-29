@@ -42,13 +42,4 @@
     </div>
   </div>
 </div>
-<script>
-  const type = document.querySelector('#type');
-  const pagination_link = document.querySelector('#pagination_link');
-
-  type.addEventListener('change', () => {
-    console.log(pagination_link, type)
-    window.location.href = `${pagination_link.value}?type=${type.value}`
-  })
-</script>
 @endsection
