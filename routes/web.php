@@ -20,4 +20,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('home', 'HomeController@index')->name('home');
+Route::get('user', 'UserController@index')->name('user');
+Route::get('product', 'ProductController@index')->name('product');
+Route::get('order', 'OrderController@index')->name('order');
+Route::get('laporan', 'LaporanController@index')->name('laporan');
+Route::get('laporan/2', 'LaporanController@laporan2')->name('laporan.2');
